@@ -1,0 +1,88 @@
+export const insightsData = [
+  {
+    id: 1,
+    category: 'Supply Chain',
+    title: 'Optimasi Supply Chain untuk FMCG di Era Digital',
+    excerpt:
+      'Bagaimana perusahaan FMCG Indonesia mengadaptasi strategi distribusi mereka di era e-commerce dan tuntutan konsumen yang semakin tinggi.',
+    content: 'Di era digital ini, perusahaan FMCG menghadapi tantangan baru dalam mengelola supply chain mereka...',
+    author: 'Tim Editorial ALN',
+    date: '2024-05-15',
+    readTime: '8 menit',
+    image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=700&q=80',
+    tags: ['Supply Chain', 'FMCG', 'Digital', 'Distribusi'],
+    featured: true,
+  },
+  {
+    id: 2,
+    category: 'Transportation',
+    title: 'Tren Armada Logistik 2024: Dari Diesel ke Elektrifikasi',
+    excerpt:
+      'Indonesia mulai bergerak menuju elektrifikasi armada logistik. Apa yang perlu dipersiapkan perusahaan logistik untuk menghadapi transisi ini?',
+    content: 'Tahun 2024 menandai babak baru dalam industri logistik Indonesia dengan hadirnya kendaraan listrik komersial...',
+    author: 'Budi Hartanto, Head of Fleet',
+    date: '2024-04-28',
+    readTime: '6 menit',
+    image: 'https://images.unsplash.com/photo-1530099486328-e021101a494a?w=700&q=80',
+    tags: ['Fleet', 'Elektrifikasi', 'Sustainability', 'Inovasi'],
+    featured: false,
+  },
+  {
+    id: 3,
+    category: 'Warehouse',
+    title: 'WMS Modern: Revolusi Manajemen Gudang di Indonesia',
+    excerpt:
+      'Warehouse Management System (WMS) modern mengubah cara perusahaan mengelola inventori dan operasional gudang secara dramatis.',
+    content: 'Implementasi WMS yang tepat dapat meningkatkan efisiensi gudang hingga 40% dan mengurangi error picking...',
+    author: 'Sari Rahmawati, Head of Warehouse',
+    date: '2024-04-10',
+    readTime: '7 menit',
+    image: 'https://images.unsplash.com/photo-1553413077-190dd305871c?w=700&q=80',
+    tags: ['WMS', 'Warehouse', 'Teknologi', 'Efisiensi'],
+    featured: false,
+  },
+  {
+    id: 4,
+    category: 'Last Mile',
+    title: 'Last Mile Delivery: Solusi untuk Ekspansi E-Commerce',
+    excerpt:
+      'Dengan pertumbuhan e-commerce yang pesat, last mile delivery menjadi battleground utama bagi perusahaan logistik. Simak strategi terbaik kami.',
+    content: 'Last mile delivery adalah tahap paling kritis dan paling mahal dalam rantai distribusi...',
+    author: 'Ahmad Fauzi, Commercial Director',
+    date: '2024-03-22',
+    readTime: '9 menit',
+    image: 'https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?w=700&q=80',
+    tags: ['Last Mile', 'E-Commerce', 'Urban Logistics', 'Delivery'],
+    featured: false,
+  },
+  {
+    id: 5,
+    category: 'Industry News',
+    title: 'Regulasi Baru Kemenhub 2024: Dampak bagi Industri Logistik',
+    excerpt:
+      'Kementerian Perhubungan merilis regulasi baru yang berdampak signifikan pada operasional angkutan barang. Apa yang perlu Anda ketahui?',
+    content: 'Peraturan Menteri Perhubungan terbaru mengatur kembali standar keselamatan dan emisi kendaraan...',
+    author: 'Tim Legal ALN',
+    date: '2024-03-05',
+    readTime: '5 menit',
+    image: 'https://images.unsplash.com/photo-1587293852726-70cdb56c2866?w=700&q=80',
+    tags: ['Regulasi', 'Kemenhub', 'Compliance', 'Hukum'],
+    featured: false,
+  },
+  {
+    id: 6,
+    category: 'Cost Optimization',
+    title: '7 Strategi Proven untuk Memangkas Biaya Logistik 30%',
+    excerpt:
+      'Biaya logistik yang tinggi adalah beban tersendiri bagi bisnis. Temukan 7 strategi terbukti yang telah membantu ratusan klien kami menghemat biaya.',
+    content: 'Biaya logistik di Indonesia rata-rata menyumbang 23% dari total biaya operasional perusahaan...',
+    author: 'Dewi Kusuma, Cost Analyst',
+    date: '2024-02-18',
+    readTime: '10 menit',
+    image: 'https://images.unsplash.com/photo-1488628176578-4ffd5fdbc900?w=700&q=80',
+    tags: ['Cost Saving', 'Efisiensi', 'ROI', 'Strategi'],
+    featured: true,
+  },
+]
+
+export const categories = ['Semua', 'Supply Chain', 'Transportation', 'Warehouse', 'Last Mile', 'Industry News', 'Cost Optimization']
