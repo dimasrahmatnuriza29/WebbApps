@@ -744,9 +744,5 @@ function Dashboard({ onLogout }) {
 
 // ── Main Export ───────────────────────────────────────────────────────────────
 export default function ClientPortalPage() {
-  const [isLoggedIn, setIsLoggedIn] = useState(false)
-
-  return isLoggedIn
-    ? <Dashboard onLogout={() => setIsLoggedIn(false)} />
-    : <LoginForm onLogin={() => setIsLoggedIn(true)} />
+  return <Dashboard onLogout={() => {}} />
 }
